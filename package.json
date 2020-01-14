@@ -1,6 +1,6 @@
 {
   "name": "@pascalmh/date-input-polyfill",
-  "version": "2.15.1",
+  "version": "2.15.2",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "date-input-polyfill.dist.js",
   "contributors": [
@@ -26,6 +26,10 @@
     {
       "name": "Pascal Küsgen",
       "url": "https://github.com/Pascalmh"
+    },
+    {
+      "name": "Marcus Stüben",
+      "url": "https://github.com/itstueben"
     }
   ],
   "repository": {
@@ -53,7 +57,7 @@
     "babel-preset-stage-3": "^6.17.0",
     "css-loader": "^0.25.0",
     "eslint": "^3.7.1",
-    "node-sass": "^3.10.1",
+    "node-sass": "^4.13.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",

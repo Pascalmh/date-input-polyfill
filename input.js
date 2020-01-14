@@ -32,7 +32,7 @@ export default class Input {
             const parts = this.element.value.match(/(\d+)/g);
             let i = 0, fmt = {};
             
-            if (parts.length !== 3) {
+            if (!parts || parts.length !== 3) {
               return null;
             }
 
